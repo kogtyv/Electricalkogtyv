@@ -66,7 +66,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedure"
     },
     {
       "name": "Lamp50v",
@@ -133,7 +134,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedure"
     },
     {
       "name": "Cable50vObnovitTakt",
@@ -164,7 +166,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedure"
     },
     {
       "name": "Cable50v",
@@ -1305,7 +1308,8 @@
         "files": [
           "src/main/resources/data/forge/tags/blocks/cable_50v.json"
         ]
-      }
+      },
+      "path": "~/Tags"
     },
     {
       "name": "FurniceGenObnovitTakt",
@@ -1336,7 +1340,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedure"
     },
     {
       "name": "FurniceGen",
@@ -1385,7 +1390,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedure"
     },
     {
       "name": "Cable50v2",
@@ -1434,21 +1440,8 @@
             "type": "world"
           }
         ]
-      }
-    },
-    {
-      "name": "DiodeCable50vObnovitTakt",
-      "type": "procedure",
-      "sortid": 59,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "diode_cable_50v_obnovit_takt",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/electricalkog/procedures/DiodeCable50vObnovitTaktProcedure.java"
-        ],
-        "dependencies": []
-      }
+      },
+      "path": "~/Procedure"
     },
     {
       "name": "DiodeCable50v",
@@ -1497,7 +1490,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedure"
     },
     {
       "name": "MultimetrPriShchielchkiePravoiKnopkoiMyshiNaBlokie",
@@ -1532,7 +1526,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedure"
     },
     {
       "name": "Multimetr",
@@ -1589,7 +1584,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedure"
     },
     {
       "name": "FurniceGeneratorZnachieniie",
@@ -1621,21 +1617,8 @@
             "type": "world"
           }
         ]
-      }
-    },
-    {
-      "name": "FurniceGeneratorZnachieniie2",
-      "type": "procedure",
-      "sortid": 65,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "furnice_generator_znachieniie_2",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/electricalkog/procedures/FurniceGeneratorZnachieniie2Procedure.java"
-        ],
-        "dependencies": []
-      }
+      },
+      "path": "~/Procedure"
     },
     {
       "name": "SwitchOff",
@@ -1698,7 +1681,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedure"
     },
     {
       "name": "Switch50KLOff",
@@ -1729,7 +1713,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedure"
     },
     {
       "name": "RelaysOff",
@@ -1795,7 +1780,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedure"
     },
     {
       "name": "RelaysOff50KL",
@@ -1826,7 +1812,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedure"
     },
     {
       "name": "IncubatorEgg50KL",
@@ -1875,7 +1862,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedure"
     },
     {
       "name": "Incubator50KLGUI",
@@ -1918,7 +1906,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Procedure"
     },
     {
       "name": "DeadLamp50KL",
@@ -2015,7 +2004,7 @@
           }
         ]
       },
-      "path": "~/Interface/ElectricalFurnice"
+      "path": "~/Procedure"
     },
     {
       "name": "ElectricalFurnicetextTemp",
@@ -2149,14 +2138,14 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.electricalkog.cable_50v_x": "Cable 5 0v",
+      "block.electricalkog.cable_50v_x": "Cable 50KL",
       "block.electricalkog.switch_off": "Switch Off",
       "item.electricalkog.small_coper_ten": "Small Coper Ten",
       "block.electricalkog.dead_lamp_50_kl": "Dead Lamp 50 KL",
       "gui.electricalkog.furnice_generator.label_energy": "\u003cenergy\u003e / 10000KL",
       "block.electricalkog.cable_50v_t": "Cable 5 0v",
       "block.electricalkog.cable_50v_xc": "Cable 5 0v",
-      "block.electricalkog.cable_50v_2": "Cable 50v",
+      "block.electricalkog.cable_50v_2": "Cable 50KL",
       "block.electricalkog.cable_50v_s": "Cable 5 0v",
       "block.electricalkog.incubator_egg_50_kl": "Incubator Egg 50 KL",
       "block.electricalkog.lampon_50v": "Lamp 5 0v",
@@ -2164,15 +2153,15 @@
       "item.electricalkog.multimetr": "Multimetr",
       "block.electricalkog.relays_on": "Relays On",
       "block.electricalkog.cable_50v_l": "Cable 5 0v",
-      "itemGroup.tabelectricalkogtyv": "Electricalkogtyv",
-      "block.electricalkog.electrical_furnice": "Electrical Furnice",
+      "itemGroup.tabelectricalkogtyv": "Electrical kogtyv",
+      "block.electricalkog.electrical_furnice": "Electrical Furnice 50KL",
       "block.electricalkog.switch_on": "Switch On",
       "block.electricalkog.cable_50v_lc": "Cable 5 0v",
       "block.electricalkog.cable_50v_i": "Cable 5 0v",
       "block.electricalkog.cable_50v_ltc": "Cable 5 0v",
       "block.electricalkog.cable_50v_f": "Cable 5 0v",
       "block.electricalkog.relays_off": "Relays Off",
-      "gui.electricalkog.incubator_50_klgui.label_incunator": "Incunator",
+      "gui.electricalkog.incubator_50_klgui.label_incunator": "Incubator",
       "block.electricalkog.infinity_energy": "Infinity Energy",
       "block.electricalkog.cable_50v_e": "Cable 5 0v",
       "block.electricalkog.cable_50v_txc": "Cable 5 0v",
@@ -2181,9 +2170,9 @@
       "gui.electricalkog.furnice_generator.label_energy_62j": "\u003cenergy\u003e / 62J",
       "block.electricalkog.cable_50v_lcc": "Cable 5 0v",
       "block.electricalkog.cable_50v_lt": "Cable 5 0v",
-      "block.electricalkog.lamp_50v": "Lamp 5KL",
+      "block.electricalkog.lamp_50v": "Lamp 50KL",
       "block.electricalkog.furnice_gen": "Furnice Gen",
-      "block.electricalkog.diode_cable_50v": "Diode Cable 50v",
+      "block.electricalkog.diode_cable_50v": "Diode Cable 50KL",
       "gui.electricalkog.electrical_furnicegui.label_electrical_furnice": "Electrical Furnice",
       "block.electricalkog.cable_50v_txcc": "Cable 5 0v",
       "item.electricalkog.coalspirale": "Coal spirale",
@@ -2192,30 +2181,30 @@
       "item.electricalkog.lamp_5_kl": "Lamp 5KL (8 block)"
     },
     "uk_ua": {
-      "block.electricalkog.cable_50v_x": "Cable 50v",
-      "block.electricalkog.switch_off": "Switch Off",
-      "item.electricalkog.small_coper_ten": "Small Coper Ten",
-      "block.electricalkog.dead_lamp_50_kl": "Dead Lamp 5 0 KL",
+      "block.electricalkog.cable_50v_x": "Кабель на 50Кл",
+      "block.electricalkog.switch_off": "Вимикач вимк.",
+      "item.electricalkog.small_coper_ten": "Малий мідний тен",
+      "block.electricalkog.dead_lamp_50_kl": "Перегоріла лампа",
       "gui.electricalkog.furnice_generator.label_energy": "\u003cenergy\u003e / 300Дж",
       "block.electricalkog.cable_50v_t": "Cable 50v",
       "block.electricalkog.cable_50v_xc": "Cable 50v",
-      "block.electricalkog.cable_50v_2": "Cable 5 0v 2",
+      "block.electricalkog.cable_50v_2": "Кабель на 50Кл",
       "block.electricalkog.cable_50v_s": "Cable 50v",
-      "block.electricalkog.incubator_egg_50_kl": "Incubator Egg 50 KL",
+      "block.electricalkog.incubator_egg_50_kl": "Інкубатор яєць 50Кл",
       "block.electricalkog.lampon_50v": "Лампа на 50В",
       "block.electricalkog.cable_50v_tc": "Cable 5 0v",
-      "item.electricalkog.multimetr": "Multimetr",
-      "block.electricalkog.relays_on": "Relays On",
+      "item.electricalkog.multimetr": "Мультиметр",
+      "block.electricalkog.relays_on": "Реле вімкнено",
       "block.electricalkog.cable_50v_l": "Cable 5 0v",
-      "itemGroup.tabelectricalkogtyv": "Electricalkogtyv",
-      "block.electricalkog.electrical_furnice": "Electrical Furnice",
-      "block.electricalkog.switch_on": "Switch On",
+      "itemGroup.tabelectricalkogtyv": "Electrical kogtyv",
+      "block.electricalkog.electrical_furnice": "Електронна піч 50Кл",
+      "block.electricalkog.switch_on": "Вимикач вімк.",
       "block.electricalkog.cable_50v_lc": "Cable 5 0v",
       "block.electricalkog.cable_50v_i": "Cable 5 0v",
       "block.electricalkog.cable_50v_ltc": "Cable 5 0v",
       "block.electricalkog.cable_50v_f": "Cable 5 0v",
-      "block.electricalkog.relays_off": "Relays Off",
-      "gui.electricalkog.incubator_50_klgui.label_incunator": "Incunator",
+      "block.electricalkog.relays_off": "Реле вимкнено",
+      "gui.electricalkog.incubator_50_klgui.label_incunator": "Інкубатор",
       "block.electricalkog.infinity_energy": "Несчерпана Енергія",
       "block.electricalkog.cable_50v_e": "Cable 5 0v",
       "block.electricalkog.cable_50v_txc": "Cable 5 0v",
@@ -2224,24 +2213,20 @@
       "gui.electricalkog.furnice_generator.label_energy_62j": "\u003cenergy\u003e / 62J",
       "block.electricalkog.cable_50v_lcc": "Cable 50v",
       "block.electricalkog.cable_50v_lt": "Cable 50v",
-      "block.electricalkog.lamp_50v": "Лампа на 50В",
+      "block.electricalkog.lamp_50v": "Лампа 50Кл",
       "block.electricalkog.furnice_gen": "Пічковий генератор",
       "block.electricalkog.diode_cable_50v": "Diode Cable 50v",
-      "gui.electricalkog.electrical_furnicegui.label_electrical_furnice": "Electrical Furnice",
+      "gui.electricalkog.electrical_furnicegui.label_electrical_furnice": "Електропіч",
       "block.electricalkog.cable_50v_txcc": "Cable 5 0v",
-      "item.electricalkog.coalspirale": "Coal spirale",
+      "item.electricalkog.coalspirale": "Вуглева спіраль",
       "gui.electricalkog.furnice_generator.label_energy1": "energy",
-      "item.electricalkog.medium_coper_ten": "Medium Coper Ten",
-      "item.electricalkog.lamp_5_kl": "Lamp 5KL (8 block)"
+      "item.electricalkog.medium_coper_ten": "Середній мідний тен",
+      "item.electricalkog.lamp_5_kl": "Лампа на 5 Кл (8 блоків)"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
-      {
-        "name": "Cable50",
-        "children": []
-      },
       {
         "name": "ModelUpdater",
         "children": [
