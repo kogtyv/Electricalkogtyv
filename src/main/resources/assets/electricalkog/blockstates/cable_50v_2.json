@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "electricalkog:block/cable_50v_2"
+    }
+  }
+}

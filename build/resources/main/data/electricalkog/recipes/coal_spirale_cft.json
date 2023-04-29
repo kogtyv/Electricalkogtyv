@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:coal"
+    },
+    "3": {
+      "item": "minecraft:coal"
+    },
+    "5": {
+      "item": "minecraft:coal"
+    }
+  },
+  "result": {
+    "item": "electricalkog:coalspirale",
+    "count": 6
+  }
+}

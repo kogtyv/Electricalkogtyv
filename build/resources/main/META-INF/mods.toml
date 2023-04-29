@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="electricalkog"
+version="1.0.0"
+displayName="Electricalkog"
+credits="Youtube: https://www.youtube.com/channel/UCBE1a96ViWb9p8GItySNzjQ"
+displayURL="https://mcreator.net"
+authors="kogtyv"
+
+[[dependencies.electricalkog]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

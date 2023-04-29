@@ -1,0 +1,2313 @@
+{
+  "mod_elements": [
+    {
+      "name": "InfinityEnergy",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinity_energy",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/models/item/infinity_energy.json",
+          "src/main/resources/assets/electricalkog/models/block/infinity_energy.json",
+          "src/main/java/net/mcreator/electricalkog/block/entity/InfinityEnergyBlockEntity.java",
+          "src/main/resources/assets/electricalkog/blockstates/infinity_energy.json",
+          "src/main/java/net/mcreator/electricalkog/block/InfinityEnergyBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FurniceGenerator",
+      "type": "gui",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnice_generator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/world/inventory/FurniceGeneratorMenu.java",
+          "src/main/java/net/mcreator/electricalkog/client/gui/FurniceGeneratorScreen.java"
+        ]
+      },
+      "path": "~/Interface"
+    },
+    {
+      "name": "FurniceGen50vObnovitTakt",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnice_gen_50v_obnovit_takt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/FurniceGen50vObnovitTaktProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Lamp50v",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lamp_50v",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/block/entity/Lamp50vBlockEntity.java",
+          "src/main/resources/assets/electricalkog/models/block/lamp_50v.json",
+          "src/main/java/net/mcreator/electricalkog/block/Lamp50vBlock.java",
+          "src/main/resources/assets/electricalkog/blockstates/lamp_50v.json",
+          "src/main/resources/assets/electricalkog/models/item/lamp_50v.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Lampon50v",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lampon_50v",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/models/item/lampon_50v.json",
+          "src/main/resources/assets/electricalkog/models/block/lampon_50v.json",
+          "src/main/java/net/mcreator/electricalkog/block/entity/Lampon50vBlockEntity.java",
+          "src/main/java/net/mcreator/electricalkog/block/Lampon50vBlock.java",
+          "src/main/resources/assets/electricalkog/blockstates/lampon_50v.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Lamp50vcode",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lamp_50vcode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Lamp50vcodeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Cable50vObnovitTakt",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_obnovit_takt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vObnovitTaktProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Cable50v",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50vBlockEntity.java",
+          "src/main/resources/assets/electricalkog/models/item/cable_50v.json",
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v.json",
+          "src/main/java/net/mcreator/electricalkog/block/Cable50vBlock.java",
+          "src/main/resources/assets/electricalkog/models/block/cable_50v.json"
+        ]
+      }
+    },
+    {
+      "name": "Cable50vE",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_e",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/block/Cable50vEBlock.java",
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50vEBlockEntity.java",
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_e.json",
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_e.json",
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_e.json"
+        ]
+      }
+    },
+    {
+      "name": "Cable50vI",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_i",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/block/Cable50vIBlock.java",
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_i.json",
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_i.json",
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_i.json",
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50vIBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Cable50vL",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_l",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/block/Cable50vLBlock.java",
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_l.json",
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50vLBlockEntity.java",
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_l.json",
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_l.json"
+        ]
+      }
+    },
+    {
+      "name": "Cable50vLC",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_lc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_lc.json",
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_lc.json",
+          "src/main/java/net/mcreator/electricalkog/block/Cable50vLCBlock.java",
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50vLCBlockEntity.java",
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_lc.json"
+        ]
+      }
+    },
+    {
+      "name": "Cable50vLCC",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_lcc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_lcc.json",
+          "src/main/java/net/mcreator/electricalkog/block/Cable50vLCCBlock.java",
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_lcc.json",
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_lcc.json",
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50vLCCBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Cable50vLT",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_lt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_lt.json",
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50vLTBlockEntity.java",
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_lt.json",
+          "src/main/java/net/mcreator/electricalkog/block/Cable50vLTBlock.java",
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_lt.json"
+        ]
+      }
+    },
+    {
+      "name": "Cable50vLTC",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_ltc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50vLTCBlockEntity.java",
+          "src/main/java/net/mcreator/electricalkog/block/Cable50vLTCBlock.java",
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_ltc.json",
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_ltc.json",
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_ltc.json"
+        ]
+      }
+    },
+    {
+      "name": "Cable50vF",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_f",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_f.json",
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_f.json",
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50vFBlockEntity.java",
+          "src/main/java/net/mcreator/electricalkog/block/Cable50vFBlock.java",
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_f.json"
+        ]
+      }
+    },
+    {
+      "name": "Cable50vS",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_s",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50vSBlockEntity.java",
+          "src/main/java/net/mcreator/electricalkog/block/Cable50vSBlock.java",
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_s.json",
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_s.json",
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_s.json"
+        ]
+      }
+    },
+    {
+      "name": "Cable50vT",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_t",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_t.json",
+          "src/main/java/net/mcreator/electricalkog/block/Cable50vTBlock.java",
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50vTBlockEntity.java",
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_t.json",
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_t.json"
+        ]
+      }
+    },
+    {
+      "name": "Cable50vTC",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_tc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_tc.json",
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_tc.json",
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50vTCBlockEntity.java",
+          "src/main/java/net/mcreator/electricalkog/block/Cable50vTCBlock.java",
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_tc.json"
+        ]
+      }
+    },
+    {
+      "name": "Cable50vTX",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_tx",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_tx.json",
+          "src/main/java/net/mcreator/electricalkog/block/Cable50vTXBlock.java",
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50vTXBlockEntity.java",
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_tx.json",
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_tx.json"
+        ]
+      }
+    },
+    {
+      "name": "Cable50vTXC",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_txc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/block/Cable50vTXCBlock.java",
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_txc.json",
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50vTXCBlockEntity.java",
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_txc.json",
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_txc.json"
+        ]
+      }
+    },
+    {
+      "name": "Cable50vTXCC",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_txcc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_txcc.json",
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_txcc.json",
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_txcc.json",
+          "src/main/java/net/mcreator/electricalkog/block/Cable50vTXCCBlock.java",
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50vTXCCBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Cable50vX",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_x",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_x.json",
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_x.json",
+          "src/main/java/net/mcreator/electricalkog/block/Cable50vXBlock.java",
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50vXBlockEntity.java",
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_x.json"
+        ]
+      }
+    },
+    {
+      "name": "Cable50vXC",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_xc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_xc.json",
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_xc.json",
+          "src/main/java/net/mcreator/electricalkog/block/Cable50vXCBlock.java",
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50vXCBlockEntity.java",
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_xc.json"
+        ]
+      }
+    },
+    {
+      "name": "Cable50vModelUpdaterMain",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater"
+    },
+    {
+      "name": "Cable50vModelUpdaterN",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_n",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterNProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater/Sub"
+    },
+    {
+      "name": "Cable50vModelUpdaterE",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_e",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterEProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater/Sub"
+    },
+    {
+      "name": "Cable50vModelUpdaterI",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_i",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater/Sub"
+    },
+    {
+      "name": "Cable50vModelUpdaterL",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_l",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterLProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater/Sub"
+    },
+    {
+      "name": "Cable50vModelUpdaterLC",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_lc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterLCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater/Sub"
+    },
+    {
+      "name": "Cable50vModelUpdaterLCC",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_lcc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterLCCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater/Sub"
+    },
+    {
+      "name": "Cable50vModelUpdaterLT",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_lt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterLTProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater/Sub"
+    },
+    {
+      "name": "Cable50vModelUpdaterLTC",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_ltc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterLTCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater/Sub"
+    },
+    {
+      "name": "Cable50vModelUpdaterF",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_f",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterFProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater/Sub"
+    },
+    {
+      "name": "Cable50vModelUpdaterS",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_s",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater/Sub"
+    },
+    {
+      "name": "Cable50vModelUpdaterT",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_t",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterTProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater/Sub"
+    },
+    {
+      "name": "Cable50vModelUpdaterTC",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_tc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterTCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater/Sub"
+    },
+    {
+      "name": "Cable50vModelUpdaterTX",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_tx",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterTXProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater/Sub"
+    },
+    {
+      "name": "Cable50vModelUpdaterTXC",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_txc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterTXCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater/Sub"
+    },
+    {
+      "name": "Cable50vModelUpdaterTXCC",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_txcc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterTXCCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater/Sub"
+    },
+    {
+      "name": "Cable50vModelUpdaterX",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_x",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterXProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater/Sub"
+    },
+    {
+      "name": "Cable50vModelUpdaterXC",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_model_updater_xc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vModelUpdaterXCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ModelUpdater/Sub"
+    },
+    {
+      "name": "Cable50vForgeEnergyMain",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_forge_energy_main",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vForgeEnergyMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FE"
+    },
+    {
+      "name": "Cable50vForgeEnergySide",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_forge_energy_sides",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vForgeEnergySideProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FE/Sub"
+    },
+    {
+      "name": "Cable50vForgeEnergyNorth",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_forge_energy_north",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vForgeEnergyNorthProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FE/Sub"
+    },
+    {
+      "name": "Cable50vForgeEnergySouth",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_forge_energy_south",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vForgeEnergySouthProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FE/Sub"
+    },
+    {
+      "name": "Cable50vForgeEnergyEast",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_forge_energy_east",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vForgeEnergyEastProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FE/Sub"
+    },
+    {
+      "name": "Cable50vForgeEnergyWest",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_forge_energy_west",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vForgeEnergyWestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FE/Sub"
+    },
+    {
+      "name": "Cable50vForgeEnergyDown",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_forge_energy_down",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vForgeEnergyDownProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FE/Sub"
+    },
+    {
+      "name": "Cable50vForgeEnergyUp",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_forge_energy_up",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50vForgeEnergyUpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/FE/Sub"
+    },
+    {
+      "name": "Cable50vTag",
+      "type": "tag",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/cable_50v.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "FurniceGenObnovitTakt",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnice_gen_obnovit_takt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/FurniceGenObnovitTaktProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "FurniceGen",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnice_gen",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/models/block/furnice_gen.json",
+          "src/main/resources/assets/electricalkog/models/item/furnice_gen.json",
+          "src/main/java/net/mcreator/electricalkog/block/FurniceGenBlock.java",
+          "src/main/java/net/mcreator/electricalkog/block/entity/FurniceGenBlockEntity.java",
+          "src/main/resources/assets/electricalkog/blockstates/furnice_gen.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Lamp50vDestroy",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lamp_50v_destroy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Lamp50vDestroyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Cable50v2",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_2.json",
+          "src/main/java/net/mcreator/electricalkog/block/entity/Cable50v2BlockEntity.java",
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_2.json",
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_2.json",
+          "src/main/java/net/mcreator/electricalkog/block/Cable50v2Block.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Cable50v2ObnovitTakt",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50v_2_obnovit_takt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Cable50v2ObnovitTaktProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "DiodeCable50v",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diode_cable_50v",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/models/item/diode_cable_50v.json",
+          "src/main/resources/assets/electricalkog/models/block/diode_cable_50v.json",
+          "src/main/java/net/mcreator/electricalkog/block/entity/DiodeCable50vBlockEntity.java",
+          "src/main/resources/assets/electricalkog/blockstates/diode_cable_50v.json",
+          "src/main/java/net/mcreator/electricalkog/block/DiodeCable50vBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DiodeCable50vObnovitTakt2",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diode_cable_50v_obnovit_takt_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/DiodeCable50vObnovitTakt2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "MultimetrPriShchielchkiePravoiKnopkoiMyshiNaBlokie",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multimetr_pri_shchielchkie_pravoi_knopkoi_myshi_na_blokie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/MultimetrPriShchielchkiePravoiKnopkoiMyshiNaBlokieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Multimetr",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multimetr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/item/MultimetrItem.java",
+          "src/main/resources/assets/electricalkog/models/item/multimetr.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Electricalkogtyv",
+      "type": "tab",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electricalkogtyv",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GUIFurniceGenEnergy",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gui_furnice_gen_energy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/GUIFurniceGenEnergyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "FurniceGeneratorZnachieniie",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/FurniceGeneratorZnachieniieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "SwitchOff",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switch_off",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/models/block/switch_off.json",
+          "src/main/resources/assets/electricalkog/models/item/switch_off.json",
+          "src/main/resources/assets/electricalkog/blockstates/switch_off.json",
+          "src/main/java/net/mcreator/electricalkog/block/SwitchOffBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SwitchOn",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switch_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/block/entity/SwitchOnBlockEntity.java",
+          "src/main/resources/assets/electricalkog/blockstates/switch_on.json",
+          "src/main/resources/assets/electricalkog/models/item/switch_on.json",
+          "src/main/resources/assets/electricalkog/models/block/switch_on.json",
+          "src/main/java/net/mcreator/electricalkog/block/SwitchOnBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Switch50KL",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switch_50_kl_on",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Switch50KLOff",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "switch_50_kl_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/Switch50KLOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "RelaysOff",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "relays_off",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/models/block/relays_off.json",
+          "src/main/resources/assets/electricalkog/models/item/relays_off.json",
+          "src/main/resources/assets/electricalkog/blockstates/relays_off.json",
+          "src/main/java/net/mcreator/electricalkog/block/RelaysOffBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RelaysOn",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "relays_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/block/RelaysOnBlock.java",
+          "src/main/resources/assets/electricalkog/models/block/relays_on.json",
+          "src/main/java/net/mcreator/electricalkog/block/entity/RelaysOnBlockEntity.java",
+          "src/main/resources/assets/electricalkog/models/item/relays_on.json",
+          "src/main/resources/assets/electricalkog/blockstates/relays_on.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "RelaysOn50KL",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "relays_on_50_kl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/RelaysOn50KLProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "RelaysOff50KL",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "relays_off_50_kl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/RelaysOff50KLProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "IncubatorEgg50KL",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incubator_egg_50_kl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/blockstates/incubator_egg_50_kl.json",
+          "src/main/resources/assets/electricalkog/models/item/incubator_egg_50_kl.json",
+          "src/main/resources/assets/electricalkog/models/block/incubator_egg_50_kl.json",
+          "src/main/java/net/mcreator/electricalkog/block/IncubatorEgg50KLBlock.java",
+          "src/main/java/net/mcreator/electricalkog/block/entity/IncubatorEgg50KLBlockEntity.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "IncubatorEgg50KLenergy",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incubator_egg_50_k_lenergy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/IncubatorEgg50KLenergyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "Incubator50KLGUI",
+      "type": "gui",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incubator_50_klgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/client/gui/Incubator50KLGUIScreen.java",
+          "src/main/java/net/mcreator/electricalkog/world/inventory/Incubator50KLGUIMenu.java"
+        ]
+      },
+      "path": "~/Interface"
+    },
+    {
+      "name": "Cable50KL3",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cable_50_kl_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "DeadLamp50KL",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dead_lamp_50_kl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/models/item/dead_lamp_50_kl.json",
+          "src/main/resources/assets/electricalkog/blockstates/dead_lamp_50_kl.json",
+          "src/main/resources/assets/electricalkog/models/block/dead_lamp_50_kl.json",
+          "src/main/java/net/mcreator/electricalkog/block/DeadLamp50KLBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "ElectricalFurnice",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrical_furnice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/block/ElectricalFurniceBlock.java",
+          "src/main/java/net/mcreator/electricalkog/block/entity/ElectricalFurniceBlockEntity.java",
+          "src/main/resources/assets/electricalkog/blockstates/electrical_furnice.json",
+          "src/main/resources/assets/electricalkog/models/item/electrical_furnice.json",
+          "src/main/resources/assets/electricalkog/models/block/electrical_furnice.json"
+        ]
+      },
+      "path": "~/Blocks/ElectricalFurnice"
+    },
+    {
+      "name": "ElectricalFurnicegui",
+      "type": "gui",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrical_furnicegui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/world/inventory/ElectricalFurniceguiMenu.java",
+          "src/main/java/net/mcreator/electricalkog/client/gui/ElectricalFurniceguiScreen.java"
+        ]
+      },
+      "path": "~/Interface/ElectricalFurnice"
+    },
+    {
+      "name": "SmallCoperTen",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_coper_ten",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/models/item/small_coper_ten.json",
+          "src/main/java/net/mcreator/electricalkog/item/SmallCoperTenItem.java"
+        ]
+      },
+      "path": "~/Items/HeatingElement"
+    },
+    {
+      "name": "ElectricalFurnicetick",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrical_furnicetick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/ElectricalFurnicetickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure"
+    },
+    {
+      "name": "ElectricalFurnicetextTemp",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrical_furnicetext_temp",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/procedures/ElectricalFurnicetextTempProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedure/ElectricalFurnice"
+    },
+    {
+      "name": "MediumCoperTen",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "medium_coper_ten",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/electricalkog/models/item/medium_coper_ten.json",
+          "src/main/java/net/mcreator/electricalkog/item/MediumCoperTenItem.java"
+        ]
+      },
+      "path": "~/Items/HeatingElement"
+    },
+    {
+      "name": "Lamp5KL",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lamp_5_kl",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/item/Lamp5KLItem.java",
+          "src/main/resources/assets/electricalkog/models/item/lamp_5_kl.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Coalspirale",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coalspirale",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/electricalkog/item/CoalspiraleItem.java",
+          "src/main/resources/assets/electricalkog/models/item/coalspirale.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Lamp5KLcft",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lamp_5_k_lcft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/electricalkog/recipes/lamp_5kl_cft.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "CoalSpiralecft",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_spiralecft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/electricalkog/recipes/coal_spirale_cft.json"
+        ]
+      },
+      "path": "~/Crafts"
+    },
+    {
+      "name": "BlockLamp5KL",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_lamp_5_kl",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/electricalkog/recipes/block_lamp_5_kl.json"
+        ]
+      },
+      "path": "~/Crafts"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "GUIBlockEnergy",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.electricalkog.cable_50v_x": "Cable 50KL",
+      "block.electricalkog.switch_off": "Switch Off",
+      "item.electricalkog.small_coper_ten": "Small Coper Ten",
+      "block.electricalkog.dead_lamp_50_kl": "Dead Lamp 5KL",
+      "gui.electricalkog.furnice_generator.label_energy": "\u003cenergy\u003e / 10000KL",
+      "block.electricalkog.cable_50v_t": "Cable 5 0v",
+      "block.electricalkog.cable_50v_xc": "Cable 5 0v",
+      "block.electricalkog.cable_50v_2": "Cable 50KL",
+      "block.electricalkog.cable_50v_s": "Cable 5 0v",
+      "block.electricalkog.incubator_egg_50_kl": "Incubator Egg 50 KL",
+      "block.electricalkog.lampon_50v": "Lamp 5 0v",
+      "block.electricalkog.cable_50v_tc": "Cable 5 0v",
+      "item.electricalkog.multimetr": "Multimetr",
+      "block.electricalkog.relays_on": "Relays On",
+      "block.electricalkog.cable_50v_l": "Cable 5 0v",
+      "itemGroup.tabelectricalkogtyv": "Electrical kogtyv",
+      "block.electricalkog.electrical_furnice": "Electrical Furnice 50KL",
+      "block.electricalkog.switch_on": "Switch On",
+      "block.electricalkog.cable_50v_lc": "Cable 5 0v",
+      "block.electricalkog.cable_50v_i": "Cable 5 0v",
+      "block.electricalkog.cable_50v_ltc": "Cable 5 0v",
+      "block.electricalkog.cable_50v_f": "Cable 5 0v",
+      "block.electricalkog.relays_off": "Relays Off",
+      "gui.electricalkog.incubator_50_klgui.label_incunator": "Incubator",
+      "block.electricalkog.infinity_energy": "Infinity Energy",
+      "block.electricalkog.cable_50v_e": "Cable 5 0v",
+      "block.electricalkog.cable_50v_txc": "Cable 5 0v",
+      "block.electricalkog.cable_50v": "Cable 5 0v",
+      "block.electricalkog.cable_50v_tx": "Cable 5 0v",
+      "gui.electricalkog.furnice_generator.label_energy_62j": "\u003cenergy\u003e / 62J",
+      "block.electricalkog.cable_50v_lcc": "Cable 5 0v",
+      "block.electricalkog.cable_50v_lt": "Cable 5 0v",
+      "block.electricalkog.lamp_50v": "Lamp 50KL",
+      "block.electricalkog.furnice_gen": "Furnice Gen",
+      "block.electricalkog.diode_cable_50v": "Diode Cable 50KL",
+      "gui.electricalkog.electrical_furnicegui.label_electrical_furnice": "Electrical Furnice",
+      "block.electricalkog.cable_50v_txcc": "Cable 5 0v",
+      "item.electricalkog.coalspirale": "Coal spirale",
+      "gui.electricalkog.furnice_generator.label_energy1": "Furnice Generator",
+      "item.electricalkog.medium_coper_ten": "Medium Coper Ten",
+      "item.electricalkog.lamp_5_kl": "Lamp 5KL (8 block)"
+    },
+    "uk_ua": {
+      "block.electricalkog.cable_50v_x": "Кабель на 50Кл",
+      "block.electricalkog.switch_off": "Вимикач вимк.",
+      "item.electricalkog.small_coper_ten": "Малий мідний тен",
+      "block.electricalkog.dead_lamp_50_kl": "Перегоріла лампа",
+      "gui.electricalkog.furnice_generator.label_energy": "\u003cenergy\u003e / 300Дж",
+      "block.electricalkog.cable_50v_t": "Cable 50v",
+      "block.electricalkog.cable_50v_xc": "Cable 50v",
+      "block.electricalkog.cable_50v_2": "Кабель на 50Кл",
+      "block.electricalkog.cable_50v_s": "Cable 50v",
+      "block.electricalkog.incubator_egg_50_kl": "Інкубатор яєць 50Кл",
+      "block.electricalkog.lampon_50v": "Лампа на 50В",
+      "block.electricalkog.cable_50v_tc": "Cable 5 0v",
+      "item.electricalkog.multimetr": "Мультиметр",
+      "block.electricalkog.relays_on": "Реле вімкнено",
+      "block.electricalkog.cable_50v_l": "Cable 5 0v",
+      "itemGroup.tabelectricalkogtyv": "Electrical kogtyv",
+      "block.electricalkog.electrical_furnice": "Електронна піч 50Кл",
+      "block.electricalkog.switch_on": "Вимикач вімк.",
+      "block.electricalkog.cable_50v_lc": "Cable 5 0v",
+      "block.electricalkog.cable_50v_i": "Cable 5 0v",
+      "block.electricalkog.cable_50v_ltc": "Cable 5 0v",
+      "block.electricalkog.cable_50v_f": "Cable 5 0v",
+      "block.electricalkog.relays_off": "Реле вимкнено",
+      "gui.electricalkog.incubator_50_klgui.label_incunator": "Інкубатор",
+      "block.electricalkog.infinity_energy": "Несчерпана Енергія",
+      "block.electricalkog.cable_50v_e": "Cable 5 0v",
+      "block.electricalkog.cable_50v_txc": "Cable 5 0v",
+      "block.electricalkog.cable_50v": "Дріт на 50В",
+      "block.electricalkog.cable_50v_tx": "Cable 5 0v",
+      "gui.electricalkog.furnice_generator.label_energy_62j": "\u003cenergy\u003e / 62J",
+      "block.electricalkog.cable_50v_lcc": "Cable 50v",
+      "block.electricalkog.cable_50v_lt": "Cable 50v",
+      "block.electricalkog.lamp_50v": "Лампа 50Кл",
+      "block.electricalkog.furnice_gen": "Пічковий генератор",
+      "block.electricalkog.diode_cable_50v": "Diode Cable 50v",
+      "gui.electricalkog.electrical_furnicegui.label_electrical_furnice": "Електропіч",
+      "block.electricalkog.cable_50v_txcc": "Cable 5 0v",
+      "item.electricalkog.coalspirale": "Вуглева спіраль",
+      "gui.electricalkog.furnice_generator.label_energy1": "energy",
+      "item.electricalkog.medium_coper_ten": "Середній мідний тен",
+      "item.electricalkog.lamp_5_kl": "Лампа на 5 Кл (8 блоків)"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "ModelUpdater",
+        "children": [
+          {
+            "name": "Sub",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "FE",
+        "children": [
+          {
+            "name": "Sub",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "ElectricalFurnice",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Procedure",
+        "children": [
+          {
+            "name": "ElectricalFurnice",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "Interface",
+        "children": [
+          {
+            "name": "ElectricalFurnice",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "HeatingElement",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Crafts",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "electricalkog",
+    "modName": "Electricalkog",
+    "version": "1.0.0",
+    "author": "kogtyv",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Youtube: https://www.youtube.com/channel/UCBE1a96ViWb9p8GItySNzjQ",
+    "modElementsPackage": "net.mcreator.electricalkog",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

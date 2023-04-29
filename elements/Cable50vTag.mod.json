@@ -1,0 +1,66 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Cable50v"
+      },
+      {
+        "value": "CUSTOM:Cable50vE"
+      },
+      {
+        "value": "CUSTOM:Cable50vI"
+      },
+      {
+        "value": "CUSTOM:Cable50vL"
+      },
+      {
+        "value": "CUSTOM:Cable50vLC"
+      },
+      {
+        "value": "CUSTOM:Cable50vLCC"
+      },
+      {
+        "value": "CUSTOM:Cable50vLT"
+      },
+      {
+        "value": "CUSTOM:Cable50vLTC"
+      },
+      {
+        "value": "CUSTOM:Cable50vF"
+      },
+      {
+        "value": "CUSTOM:Cable50vS"
+      },
+      {
+        "value": "CUSTOM:Cable50vT"
+      },
+      {
+        "value": "CUSTOM:Cable50vTC"
+      },
+      {
+        "value": "CUSTOM:Cable50vTX"
+      },
+      {
+        "value": "CUSTOM:Cable50vTXC"
+      },
+      {
+        "value": "CUSTOM:Cable50vTXCC"
+      },
+      {
+        "value": "CUSTOM:Cable50vX"
+      },
+      {
+        "value": "CUSTOM:Cable50vXC"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "cable_50v",
+    "namespace": "forge"
+  }
+}

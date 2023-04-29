@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "electricalkog:cable_50v_e",
+    "electricalkog:cable_50v_xc",
+    "electricalkog:cable_50v_f",
+    "electricalkog:cable_50v_txc",
+    "electricalkog:cable_50v_tc",
+    "electricalkog:cable_50v_lc",
+    "electricalkog:cable_50v_ltc",
+    "electricalkog:cable_50v",
+    "electricalkog:cable_50v_txcc",
+    "electricalkog:cable_50v_x",
+    "electricalkog:cable_50v_s",
+    "electricalkog:cable_50v_t",
+    "electricalkog:cable_50v_tx",
+    "electricalkog:cable_50v_l",
+    "electricalkog:cable_50v_i",
+    "electricalkog:cable_50v_lcc",
+    "electricalkog:cable_50v_lt"
+  ]
+}

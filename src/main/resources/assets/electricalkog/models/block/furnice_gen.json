@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "electricalkog:blocks/furnicegen50v_2",
+    "up": "electricalkog:blocks/furnicegen50v_2",
+    "north": "electricalkog:blocks/furnicegen50_1",
+    "east": "electricalkog:blocks/furnicegen50v_2",
+    "south": "electricalkog:blocks/a",
+    "west": "electricalkog:blocks/furnicegen50v_2",
+    "particle": "electricalkog:blocks/furnicegen50v_2"
+  },
+  "render_type": "solid"
+}

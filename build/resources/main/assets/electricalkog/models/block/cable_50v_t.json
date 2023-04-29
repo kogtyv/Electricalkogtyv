@@ -1,0 +1,9 @@
+{
+  "parent": "electricalkog:custom/electrical_cable_t",
+  "textures": {
+    "all": "electricalkog:blocks/electrical_cable",
+    "particle": "electricalkog:blocks/electrical_cable",
+    "cable": "electricalkog:blocks/electrical_cable"
+  },
+  "render_type": "solid"
+}

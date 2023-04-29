@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "electricalkog:blocks/a",
+    "up": "electricalkog:blocks/a",
+    "north": "electricalkog:blocks/a",
+    "east": "electricalkog:blocks/a",
+    "south": "electricalkog:blocks/a",
+    "west": "electricalkog:blocks/a",
+    "particle": "electricalkog:blocks/a"
+  },
+  "render_type": "solid"
+}

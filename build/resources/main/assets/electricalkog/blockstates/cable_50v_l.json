@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "electricalkog:block/cable_50v_l"
+    },
+    "facing=east": {
+      "model": "electricalkog:block/cable_50v_l",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "electricalkog:block/cable_50v_l",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "electricalkog:block/cable_50v_l",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "electricalkog:block/cable_50v_l",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "electricalkog:block/cable_50v_l",
+      "x": 90
+    }
+  }
+}

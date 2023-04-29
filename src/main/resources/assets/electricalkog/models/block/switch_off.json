@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "electricalkog:blocks/swich",
+    "up": "electricalkog:blocks/swich",
+    "north": "electricalkog:blocks/swich",
+    "east": "electricalkog:blocks/swich",
+    "south": "electricalkog:blocks/swich",
+    "west": "electricalkog:blocks/swich",
+    "particle": "electricalkog:blocks/swich"
+  },
+  "render_type": "solid"
+}

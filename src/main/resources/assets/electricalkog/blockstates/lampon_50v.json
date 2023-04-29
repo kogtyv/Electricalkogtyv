@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "electricalkog:block/lampon_50v"
+    }
+  }
+}

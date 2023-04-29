@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "electricalkog:block/diode_cable_50v"
+    },
+    "facing=east": {
+      "model": "electricalkog:block/diode_cable_50v",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "electricalkog:block/diode_cable_50v",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "electricalkog:block/diode_cable_50v",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "electricalkog:block/diode_cable_50v",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "electricalkog:block/diode_cable_50v",
+      "x": 90
+    }
+  }
+}

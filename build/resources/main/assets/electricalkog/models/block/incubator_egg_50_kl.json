@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "electricalkog:blocks/incubator_side",
+    "up": "electricalkog:blocks/incubator_top",
+    "north": "electricalkog:blocks/incubator_side",
+    "east": "electricalkog:blocks/incubator_side",
+    "south": "electricalkog:blocks/incubator_side",
+    "west": "electricalkog:blocks/incubator_side",
+    "particle": "electricalkog:blocks/incubator_side"
+  },
+  "render_type": "solid"
+}

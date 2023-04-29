@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "electricalkog:blocks/switchon",
+    "up": "electricalkog:blocks/switchon",
+    "north": "electricalkog:blocks/switchon",
+    "east": "electricalkog:blocks/switchon",
+    "south": "electricalkog:blocks/switchon",
+    "west": "electricalkog:blocks/switchon",
+    "particle": "electricalkog:blocks/switchon"
+  },
+  "render_type": "solid"
+}
