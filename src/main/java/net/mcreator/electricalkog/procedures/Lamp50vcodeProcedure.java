@@ -11,7 +11,6 @@ import net.minecraft.util.Mth;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.electricalkog.init.ElectricalkogModBlocks;
-import net.mcreator.electricalkog.ElectricalkogMod;
 
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.Random;
@@ -22,57 +21,25 @@ public class Lamp50vcodeProcedure {
 		double previousRecipe = 0;
 		double energy = 0;
 		double Random = 0;
-		Random = Mth.nextInt(RandomSource.create(), 1, 8192);
-		if (new Object() {
-			public int getEnergyStored(LevelAccessor level, BlockPos pos) {
-				AtomicInteger _retval = new AtomicInteger(0);
-				BlockEntity _ent = level.getBlockEntity(pos);
-				if (_ent != null)
-					_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
-				return _retval.get();
-			}
-		}.getEnergyStored(world, new BlockPos(x, y, z)) >= 5) {
-			ElectricalkogMod.queueServerWork(3, () -> {
-				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
-					int _amount = 5;
-					if (_ent != null)
-						_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> capability.extractEnergy(_amount, false));
-				}
-				if (!((world.getBlockState(new BlockPos(x, y, z))).getBlock() == ElectricalkogModBlocks.LAMPON_50V.get())) {
-					{
-						BlockPos _bp = new BlockPos(x, y, z);
-						BlockState _bs = ElectricalkogModBlocks.LAMPON_50V.get().defaultBlockState();
-						BlockState _bso = world.getBlockState(_bp);
-						for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
-							Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
-							if (_property != null && _bs.getValue(_property) != null)
-								try {
-									_bs = _bs.setValue(_property, (Comparable) entry.getValue());
-								} catch (Exception e) {
-								}
-						}
-						world.setBlock(_bp, _bs, 3);
-					}
-				}
-			});
+		double cheker = 0;
+		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == ElectricalkogModBlocks.LAMP_50V.get()) {
+			cheker = 0;
 		}
-		if (new Object() {
-			public int getEnergyStored(LevelAccessor level, BlockPos pos) {
-				AtomicInteger _retval = new AtomicInteger(0);
-				BlockEntity _ent = level.getBlockEntity(pos);
-				if (_ent != null)
-					_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
-				return _retval.get();
-			}
-		}.getEnergyStored(world, new BlockPos(x, y, z)) < 5) {
-			ElectricalkogMod.queueServerWork(5, () -> {
-				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
-					int _amount = 5;
+		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == ElectricalkogModBlocks.LAMPON_50V.get()) {
+			cheker = 1;
+		}
+		Random = Mth.nextInt(RandomSource.create(), 1, 4096);
+		if (cheker == 1) {
+			cheker = -1;
+			if (new Object() {
+				public int getEnergyStored(LevelAccessor level, BlockPos pos) {
+					AtomicInteger _retval = new AtomicInteger(0);
+					BlockEntity _ent = level.getBlockEntity(pos);
 					if (_ent != null)
-						_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> capability.extractEnergy(_amount, false));
+						_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
+					return _retval.get();
 				}
+			}.getEnergyStored(world, new BlockPos(x, y, z)) < 5) {
 				if (!((world.getBlockState(new BlockPos(x, y, z))).getBlock() == ElectricalkogModBlocks.LAMP_50V.get())) {
 					{
 						BlockPos _bp = new BlockPos(x, y, z);
@@ -89,10 +56,55 @@ public class Lamp50vcodeProcedure {
 						world.setBlock(_bp, _bs, 3);
 					}
 				}
-			});
+			}
 		}
-		if (Random == 1) {
+		if (cheker == 0) {
+			cheker = -1;
+			if (new Object() {
+				public int getEnergyStored(LevelAccessor level, BlockPos pos) {
+					AtomicInteger _retval = new AtomicInteger(0);
+					BlockEntity _ent = level.getBlockEntity(pos);
+					if (_ent != null)
+						_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
+					return _retval.get();
+				}
+			}.getEnergyStored(world, new BlockPos(x, y, z)) >= 5) {
+				if (!((world.getBlockState(new BlockPos(x, y, z))).getBlock() == ElectricalkogModBlocks.LAMPON_50V.get())) {
+					{
+						BlockPos _bp = new BlockPos(x, y, z);
+						BlockState _bs = ElectricalkogModBlocks.LAMPON_50V.get().defaultBlockState();
+						BlockState _bso = world.getBlockState(_bp);
+						for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+							Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+							if (_property != null && _bs.getValue(_property) != null)
+								try {
+									_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+								} catch (Exception e) {
+								}
+						}
+						world.setBlock(_bp, _bs, 3);
+					}
+				}
+			}
+		}
+		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == ElectricalkogModBlocks.LAMPON_50V.get() && Random == 1) {
 			world.setBlock(new BlockPos(x, y, z), ElectricalkogModBlocks.DEAD_LAMP_50_KL.get().defaultBlockState(), 3);
+		}
+		if (new Object() {
+			public int getEnergyStored(LevelAccessor level, BlockPos pos) {
+				AtomicInteger _retval = new AtomicInteger(0);
+				BlockEntity _ent = level.getBlockEntity(pos);
+				if (_ent != null)
+					_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
+				return _retval.get();
+			}
+		}.getEnergyStored(world, new BlockPos(x, y, z)) >= 5) {
+			{
+				BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+				int _amount = 5;
+				if (_ent != null)
+					_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> capability.extractEnergy(_amount, false));
+			}
 		}
 	}
 }

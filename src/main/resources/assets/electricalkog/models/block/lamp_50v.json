@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "electricalkog:blocks/lamp50voff",
-    "particle": "electricalkog:blocks/lamp50voff"
+    "all": "electricalkog:blocks/lamp_incandescent_5kl_off",
+    "particle": "electricalkog:blocks/lamp_incandescent_5kl_off"
   },
   "render_type": "cutout_mipped"
 }

@@ -2170,7 +2170,7 @@
       "gui.electricalkog.furnice_generator.label_energy_62j": "\u003cenergy\u003e / 62J",
       "block.electricalkog.cable_50v_lcc": "Cable 5 0v",
       "block.electricalkog.cable_50v_lt": "Cable 5 0v",
-      "block.electricalkog.lamp_50v": "Lamp 50KL",
+      "block.electricalkog.lamp_50v": "Lamp 5KL",
       "block.electricalkog.furnice_gen": "Furnice Gen",
       "block.electricalkog.diode_cable_50v": "Diode Cable 50KL",
       "gui.electricalkog.electrical_furnicegui.label_electrical_furnice": "Electrical Furnice",

@@ -2,7 +2,7 @@
   "_fv": 39,
   "_type": "block",
   "definition": {
-    "texture": "lamp50von",
+    "texture": "lamp_incandescent_5kl_on",
     "textureTop": "lamp50voff",
     "textureLeft": "lamp50voff",
     "textureFront": "lamp50voff",
