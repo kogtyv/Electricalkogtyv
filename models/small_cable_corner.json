@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "cable_50kl:cable_a",
+		"particle": "cable_50kl:cable_a"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 0],
+			"to": [9, 2, 9],
+			"faces": {
+				"north": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"east": {"uv": [7, 0, 16, 2], "texture": "#0"},
+				"south": {"uv": [13, 0, 15, 2], "texture": "#0"},
+				"west": {"uv": [7, 0, 16, 2], "texture": "#0"},
+				"up": {"uv": [0, 7, 2, 16], "texture": "#0"},
+				"down": {"uv": [0, 7, 2, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9, 0, 7],
+			"to": [16, 2, 9],
+			"faces": {
+				"north": {"uv": [9, 0, 16, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"south": {"uv": [9, 0, 16, 2], "texture": "#0"},
+				"west": {"uv": [0, 0, 2, 2], "texture": "#0"},
+				"up": {"uv": [9, 0, 16, 2], "texture": "#0"},
+				"down": {"uv": [9, 0, 16, 2], "texture": "#0"}
+			}
+		}
+	]
+}

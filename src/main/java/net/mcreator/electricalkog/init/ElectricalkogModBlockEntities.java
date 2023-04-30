@@ -44,11 +44,10 @@ public class ElectricalkogModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, ElectricalkogMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> INFINITY_ENERGY = register("infinity_energy", ElectricalkogModBlocks.INFINITY_ENERGY, InfinityEnergyBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> FURNICE_GEN = register("furnice_gen", ElectricalkogModBlocks.FURNICE_GEN, FurniceGenBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> LAMP_50V = register("lamp_50v", ElectricalkogModBlocks.LAMP_50V, Lamp50vBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> CABLE_50V_2 = register("cable_50v_2", ElectricalkogModBlocks.CABLE_50V_2, Cable50v2BlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> SMALL_CABLE_NULL = register("small_cable_null", ElectricalkogModBlocks.SMALL_CABLE_NULL, Cable50v2BlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> CABLE_50V = register("cable_50v", ElectricalkogModBlocks.CABLE_50V, Cable50vBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> DIODE_CABLE_50V = register("diode_cable_50v", ElectricalkogModBlocks.DIODE_CABLE_50V, DiodeCable50vBlockEntity::new);
-	public static final RegistryObject<BlockEntityType<?>> LAMPON_50V = register("lampon_50v", ElectricalkogModBlocks.LAMPON_50V, Lampon50vBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> LAMP_50V = register("lamp_50v", ElectricalkogModBlocks.LAMP_50V, Lamp50vBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> CABLE_50V_E = register("cable_50v_e", ElectricalkogModBlocks.CABLE_50V_E, Cable50vEBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> CABLE_50V_I = register("cable_50v_i", ElectricalkogModBlocks.CABLE_50V_I, Cable50vIBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> CABLE_50V_L = register("cable_50v_l", ElectricalkogModBlocks.CABLE_50V_L, Cable50vLBlockEntity::new);
@@ -57,6 +56,7 @@ public class ElectricalkogModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> CABLE_50V_LT = register("cable_50v_lt", ElectricalkogModBlocks.CABLE_50V_LT, Cable50vLTBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> CABLE_50V_LTC = register("cable_50v_ltc", ElectricalkogModBlocks.CABLE_50V_LTC, Cable50vLTCBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> CABLE_50V_F = register("cable_50v_f", ElectricalkogModBlocks.CABLE_50V_F, Cable50vFBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> LAMPON_50V = register("lampon_50v", ElectricalkogModBlocks.LAMPON_50V, Lampon50vBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> CABLE_50V_S = register("cable_50v_s", ElectricalkogModBlocks.CABLE_50V_S, Cable50vSBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> CABLE_50V_T = register("cable_50v_t", ElectricalkogModBlocks.CABLE_50V_T, Cable50vTBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> CABLE_50V_TC = register("cable_50v_tc", ElectricalkogModBlocks.CABLE_50V_TC, Cable50vTCBlockEntity::new);

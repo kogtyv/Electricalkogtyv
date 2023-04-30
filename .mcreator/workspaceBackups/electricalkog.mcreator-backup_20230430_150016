@@ -1399,17 +1399,17 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "small_cable_null",
+      "registry_name": "cable_50v_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/electricalkog/models/block/small_cable_null.json",
+          "src/main/resources/assets/electricalkog/models/item/cable_50v_2.json",
           "src/main/java/net/mcreator/electricalkog/block/entity/Cable50v2BlockEntity.java",
-          "src/main/resources/assets/electricalkog/models/item/small_cable_null.json",
-          "src/main/resources/assets/electricalkog/blockstates/small_cable_null.json",
+          "src/main/resources/assets/electricalkog/blockstates/cable_50v_2.json",
+          "src/main/resources/assets/electricalkog/models/block/cable_50v_2.json",
           "src/main/java/net/mcreator/electricalkog/block/Cable50v2Block.java"
         ]
       },
-      "path": "~/Blocks/Small_Cable"
+      "path": "~/Blocks"
     },
     {
       "name": "Cable50v2ObnovitTakt",
@@ -2151,6 +2151,7 @@
       "gui.electricalkog.furnice_generator.label_energy": "\u003cenergy\u003e / 10000KL",
       "block.electricalkog.cable_50v_t": "Cable 5 0v",
       "block.electricalkog.cable_50v_xc": "Cable 5 0v",
+      "block.electricalkog.cable_50v_2": "Cable 50v",
       "block.electricalkog.cable_50v_s": "Cable 5 0v",
       "block.electricalkog.incubator_egg_50_kl": "Incubator Egg 50 KL",
       "block.electricalkog.lampon_50v": "Lamp 5 0v",
@@ -2180,7 +2181,6 @@
       "block.electricalkog.diode_cable_50v": "Diode Cable 50v",
       "gui.electricalkog.electrical_furnicegui.label_electrical_furnice": "Electrical Furnice",
       "block.electricalkog.cable_50v_txcc": "Cable 5 0v",
-      "block.electricalkog.small_cable_null": "Cable 50v",
       "item.electricalkog.coalspirale": "Coal spirale",
       "gui.electricalkog.furnice_generator.label_energy1": "Furnice Generator",
       "item.electricalkog.medium_coper_ten": "Medium Coper Ten",
@@ -2194,6 +2194,7 @@
       "gui.electricalkog.furnice_generator.label_energy": "\u003cenergy\u003e / 300Дж",
       "block.electricalkog.cable_50v_t": "Cable 50v",
       "block.electricalkog.cable_50v_xc": "Cable 50v",
+      "block.electricalkog.cable_50v_2": "Кабель на 50Кл",
       "block.electricalkog.cable_50v_s": "Cable 50v",
       "block.electricalkog.incubator_egg_50_kl": "Інкубатор яєць 50Кл",
       "block.electricalkog.lampon_50v": "Лампа на 50В",
@@ -2223,7 +2224,6 @@
       "block.electricalkog.diode_cable_50v": "Diode Cable 50v",
       "gui.electricalkog.electrical_furnicegui.label_electrical_furnice": "Електропіч",
       "block.electricalkog.cable_50v_txcc": "Cable 5 0v",
-      "block.electricalkog.small_cable_null": "Cable 50v",
       "item.electricalkog.coalspirale": "Вуглева спіраль",
       "gui.electricalkog.furnice_generator.label_energy1": "energy",
       "item.electricalkog.medium_coper_ten": "Середній мідний тен",
@@ -2259,7 +2259,7 @@
             "children": []
           },
           {
-            "name": "Small_Cable",
+            "name": "Cable",
             "children": []
           }
         ]
